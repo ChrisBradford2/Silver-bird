@@ -1,5 +1,35 @@
+//Libre_Baskerville
+@font-face {
+    font-family: Libre_Baskerville;
+    src: url(assets/font/LibreBaskerville-Regular.ttf);
+}
+//Libre_Baskerville
+@font-face {
+    font-family: HKGrotesk-SemiBold;
+    src: url(assets/font/HKGrotesk-SemiBold.otf);
+}
+
 $primary-color: #003B5C;
 
-.body{
-    color: $primary-color ;
+
+p {
+    font-family: Libre_Baskerville;
+}
+
+nav {
+
+    padding: 1%;
+    
+    .items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        text-transform: uppercase;
+    }
+
+    a {
+        color: $primary-color !important;
+    }
 }

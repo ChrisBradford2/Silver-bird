@@ -1,5 +1,27 @@
-.body {
-  color: #003B5C;
+@font-face {
+  font-family: Libre_Baskerville;
+  src: url(assets/font/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+  font-family: HKGrotesk-SemiBold;
+  src: url(assets/font/HKGrotesk-SemiBold.otf);
+}
+p {
+  font-family: Libre_Baskerville;
+}
+
+nav {
+  padding: 1%;
+}
+nav .items {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  text-transform: uppercase;
+}
+nav a {
+  color: #003B5C !important;
 }
 
 /*# sourceMappingURL=style.css.map */
