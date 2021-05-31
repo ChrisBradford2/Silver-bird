@@ -38,11 +38,19 @@ nav a {
 }
 nav .items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav ul {
   text-transform: uppercase;
   font-size: 12px !important;
+}
+
+.sidenav ul {
+  text-transform: uppercase;
+  font-size: 12px !important;
+}
+.sidenav a {
+  color: #003B5C !important;
 }
 
 .jaguar-img {
