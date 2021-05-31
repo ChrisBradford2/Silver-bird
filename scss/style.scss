@@ -3,7 +3,7 @@
     font-family: Libre_Baskerville;
     src: url(assets/font/LibreBaskerville-Regular.ttf);
 }
-//Libre_Baskerville
+//HKGrotesk
 @font-face {
     font-family: HKGrotesk-SemiBold;
     src: url(assets/font/HKGrotesk-SemiBold.otf);
@@ -13,8 +13,19 @@
 $primary-color: #003B5C;
 $paragraph-color: #5D534F;
 $footer-color: #E74832;
+$border: #E5DBD1;
+$subnav: #4F4D4D;
 
-h2 {
+.subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $primary-color;
+    border: 1px $border solid;
+    padding: 1%;
+}
+
+h3 {
     font-size: 36px;
     color: $primary-color;
 }
@@ -25,13 +36,17 @@ p {
 }
 
 a {
-    color: $primary-color !important;
+    color: $primary-color;
     text-transform: uppercase;
 }
 
 nav {
 
     padding: 1%;
+
+    a {
+        color: $primary-color !important;
+    }
     
     .items {
         display: flex;
@@ -56,4 +71,32 @@ nav {
     max-width: 32.438rem;
     height: auto;
     display: block;
+}
+
+.blog-img {
+    width: 100%;
+    max-width: 25.688rem;
+    height: auto;
+    display: block;
+}
+
+.subnav {
+    ul {
+        overflow: hidden;
+        color: $subnav !important
+    }
+    li {
+        a {
+            color: $subnav !important;
+        }
+    }
+}
+
+.link-category {
+    font-size: 12.03px;
+}
+
+.read-more {
+    color: $footer-color;
+    text-transform: uppercase;
 }

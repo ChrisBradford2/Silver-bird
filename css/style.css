@@ -6,7 +6,16 @@
   font-family: HKGrotesk-SemiBold;
   src: url(assets/font/HKGrotesk-SemiBold.otf);
 }
-h2 {
+.subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #003B5C;
+  border: 1px #E5DBD1 solid;
+  padding: 1%;
+}
+
+h3 {
   font-size: 36px;
   color: #003B5C;
 }
@@ -17,12 +26,15 @@ p {
 }
 
 a {
-  color: #003B5C !important;
+  color: #003B5C;
   text-transform: uppercase;
 }
 
 nav {
   padding: 1%;
+}
+nav a {
+  color: #003B5C !important;
 }
 nav .items {
   display: flex;
@@ -45,6 +57,30 @@ nav ul {
   max-width: 32.438rem;
   height: auto;
   display: block;
+}
+
+.blog-img {
+  width: 100%;
+  max-width: 25.688rem;
+  height: auto;
+  display: block;
+}
+
+.subnav ul {
+  overflow: hidden;
+  color: #4F4D4D !important;
+}
+.subnav li a {
+  color: #4F4D4D !important;
+}
+
+.link-category {
+  font-size: 12.03px;
+}
+
+.read-more {
+  color: #E74832;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
