@@ -16,7 +16,7 @@
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 22px;
   color: #003B5C;
 }
 
@@ -68,7 +68,6 @@ nav ul {
 
 .subnav ul {
   overflow: hidden;
-  color: #4F4D4D !important;
 }
 .subnav li a {
   color: #4F4D4D !important;
@@ -81,6 +80,39 @@ nav ul {
 .read-more {
   color: #E74832;
   text-transform: uppercase;
+}
+
+.newsletter {
+  background-image: url(../assets/img/NEWSLETTER.png);
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 456px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding-bottom: 5%;
+}
+.newsletter h2 {
+  font-size: 52px;
+  padding-top: 5%;
+}
+.newsletter p {
+  padding-top: 3%;
+  font-size: 22px;
+  color: white;
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+}
+.newsletter a {
+  color: #003B5C;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
