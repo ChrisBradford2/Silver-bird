@@ -16,6 +16,13 @@ p {
     font-family: Libre_Baskerville;
 }
 
+header {
+    a {
+        color: $primary-color !important;
+        text-transform: uppercase;
+    }
+}
+
 nav {
 
     padding: 1%;
@@ -27,9 +34,6 @@ nav {
 
     ul {
         text-transform: uppercase;
-    }
-
-    a {
-        color: $primary-color !important;
+        font-size: 12px !important;
     }
 }
