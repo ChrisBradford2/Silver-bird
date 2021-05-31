@@ -100,6 +100,13 @@ nav ul {
   display: block;
   padding-right: 2rem;
 }
+.subnav .float-right {
+  float: right;
+}
+
+.article {
+  margin-bottom: 5%;
+}
 
 .link-category {
   font-size: 12.03px;
