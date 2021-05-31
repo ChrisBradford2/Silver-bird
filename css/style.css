@@ -1,10 +1,10 @@
 @font-face {
   font-family: Libre_Baskerville;
-  src: url(assets/font/LibreBaskerville-Regular.ttf);
+  src: url(../assets/font/LibreBaskerville-Regular.ttf) format(truetype);
 }
 @font-face {
   font-family: HKGrotesk-SemiBold;
-  src: url(assets/font/HKGrotesk-SemiBold.otf);
+  src: url(../assets/font/HKGrotesk-SemiBold.otf) format(opentype);
 }
 .subtitle {
   font-size: 24px;
@@ -66,12 +66,24 @@ nav ul {
   display: block;
 }
 
+.logofooter-img {
+  width: 100%;
+  max-width: 17.813;
+  height: auto;
+  display: block;
+}
+
+.subnav li {
+  display: inline-block;
+}
 .subnav ul {
   overflow: hidden;
 }
 .subnav li a {
   color: #4F4D4D !important;
   font-size: 12.03px;
+  display: block;
+  padding-right: 2rem;
 }
 
 .link-category {
@@ -135,6 +147,18 @@ footer li a {
   font-size: 12.03px;
   font-weight: 500;
   color: white;
+}
+footer .white-border {
+  border: 1px solid;
+}
+footer .social li {
+  display: inline-block;
+}
+footer .social li a {
+  display: block;
+  color: white;
+  font-size: 17px;
+  padding-right: 2rem;
 }
 footer .footer-copyright {
   background-color: #E74832 !important;
