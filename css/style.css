@@ -6,11 +6,17 @@
   font-family: HKGrotesk-SemiBold;
   src: url(assets/font/HKGrotesk-SemiBold.otf);
 }
-p {
-  font-family: Libre_Baskerville;
+h2 {
+  font-size: 36px;
+  color: #003B5C;
 }
 
-header a {
+p {
+  font-family: Libre_Baskerville;
+  color: #5D534F;
+}
+
+a {
   color: #003B5C !important;
   text-transform: uppercase;
 }
@@ -25,6 +31,20 @@ nav .items {
 nav ul {
   text-transform: uppercase;
   font-size: 12px !important;
+}
+
+.jaguar-img {
+  width: 100%;
+  max-width: 46rem;
+  height: auto;
+  display: block;
+}
+
+.whisky-img {
+  width: 100%;
+  max-width: 32.438rem;
+  height: auto;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

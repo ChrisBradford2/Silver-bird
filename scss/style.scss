@@ -9,18 +9,24 @@
     src: url(assets/font/HKGrotesk-SemiBold.otf);
 }
 
+//Color
 $primary-color: #003B5C;
+$paragraph-color: #5D534F;
+$footer-color: #E74832;
 
+h2 {
+    font-size: 36px;
+    color: $primary-color;
+}
 
 p {
     font-family: Libre_Baskerville;
+    color: $paragraph-color;
 }
 
-header {
-    a {
-        color: $primary-color !important;
-        text-transform: uppercase;
-    }
+a {
+    color: $primary-color !important;
+    text-transform: uppercase;
 }
 
 nav {
@@ -36,4 +42,18 @@ nav {
         text-transform: uppercase;
         font-size: 12px !important;
     }
+}
+
+.jaguar-img {
+    width: 100%;
+    max-width: 46rem;
+    height: auto;
+    display: block;
+}
+
+.whisky-img {
+    width: 100%;
+    max-width: 32.438rem;
+    height: auto;
+    display: block;
 }
