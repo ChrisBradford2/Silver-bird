@@ -130,3 +130,33 @@ nav {
         background-color: white;
     }
 }
+
+.space-divider {
+    margin-bottom: 4px;
+}
+
+footer {
+    background-color: $footer-color !important;
+    padding-left: 2.813rem;
+    padding-right: 2.813rem;
+    padding-bottom: 3rem;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    li {
+        a {
+            text-transform: uppercase;
+            font-size: 12.03px;
+            font-weight: 500;
+            color: white;
+        }
+    }
+
+    .footer-copyright {
+        background-color: $footer-color !important;
+        color: white !important;
+    }
+}
