@@ -53,6 +53,13 @@ nav ul {
   color: #003B5C !important;
 }
 
+.logonav {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  display: block !important;
+}
+
 .jaguar-img {
   width: 100%;
   max-width: 46rem;
@@ -76,7 +83,7 @@ nav ul {
 
 .logofooter-img {
   width: 100%;
-  max-width: 17.813;
+  max-width: 30.813rem;
   height: auto;
   display: block;
 }
@@ -105,28 +112,30 @@ nav ul {
 
 .newsletter {
   background-image: url(../assets/img/NEWSLETTER.png);
-  /* The image used */
-  background-color: #cccccc;
-  /* Used if the image is unavailable */
+  background-color: #003B5C;
   height: 456px;
-  /* You must set a specified height */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
   background-size: cover;
-  /* Resize the background image to cover the entire container */
-  padding-bottom: 5%;
+}
+@media (max-width: 768px) {
+  .newsletter {
+    padding-bottom: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .newsletter {
+    padding-bottom: 5%;
+  }
 }
 .newsletter h2 {
   font-size: 52px;
   padding-top: 5%;
 }
 .newsletter p {
-  padding-top: 3%;
   font-size: 22px;
   color: white;
-  padding-top: 3%;
+  margin-top: 3%;
   padding-left: 25%;
   padding-right: 25%;
   padding-bottom: 1%;
