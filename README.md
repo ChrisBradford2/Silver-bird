@@ -25,7 +25,7 @@ npm run test
 
 * Website: www.nicolas-barbarisi.com
 * Github: [@ChrisBradford2](https://github.com/ChrisBradford2)
-* LinkedIn: [@Nicolas Barbarisi ](https://linkedin.com/in/Nicolas Barbarisi )
+* LinkedIn: [@Nicolas Barbarisi ](https://www.linkedin.com/in/nicolas-barbarisi-a4a97a193/)
 
 ## 🤝 Contributing
 
