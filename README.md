@@ -1,7 +1,7 @@
 # Welcome to silver-bird 👋
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ChrisBradford2/Silver-bird/graphs/commit-activity)
-[![License: GNU General Public License v3.0 ](https://img.shields.io/github/license/ChrisBradford2/silver-bird)](https://github.com/ChrisBradford2/Silver-bird/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NicolasBarbarisi/Silver-bird/graphs/commit-activity)
+[![License: GNU General Public License v3.0 ](https://img.shields.io/github/license/NicolasBarbarisi/silver-bird)](https://github.com/NicolasBarbarisi/Silver-bird/blob/master/LICENSE)
 
 > Projet de fin de module en Responsive Design
 
@@ -24,14 +24,14 @@ npm run test
 👤 **Nicolas Barbarisi**
 
 * Website: www.nicolas-barbarisi.com
-* Github: [@ChrisBradford2](https://github.com/ChrisBradford2)
+* Github: [@NicolasBarbarisi](https://github.com/NicolasBarbarisi)
 * LinkedIn: [@Nicolas Barbarisi ](https://www.linkedin.com/in/nicolas-barbarisi-a4a97a193/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/ChrisBradford2/Silver-bird/issues). You can also take a look at the [contributing guide](https://github.com/ChrisBradford2/Silver-bird/blob/master/CONTRIBUTING.md).
+Feel free to check [issues page](https://github.com/NicolasBarbarisi/Silver-bird/issues). You can also take a look at the [contributing guide](https://github.com/NicolasBarbarisi/Silver-bird/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
@@ -40,9 +40,9 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Nicolas Barbarisi](https://github.com/ChrisBradford2).
+Copyright © 2021 [Nicolas Barbarisi](https://github.com/NicolasBarbarisi).
 
-This project is [GNU General Public License v3.0 ](https://github.com/ChrisBradford2/Silver-bird/blob/master/LICENSE) licensed.
+This project is [GNU General Public License v3.0 ](https://github.com/NicolasBarbarisi/Silver-bird/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
