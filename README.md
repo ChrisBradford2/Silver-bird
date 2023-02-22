@@ -1,6 +1,6 @@
 # Welcome to silver-bird 👋
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/chrisbradford2/Silver-bird/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/chrisbradford2/Silver-bird/graphs/commit-activity)
 [![License: GNU General Public License v3.0 ](https://img.shields.io/github/license/chrisbradford2/silver-bird)](https://github.com/chrisbradford2/Silver-bird/blob/master/LICENSE)
 
 > Projet de fin de module en Responsive Design
